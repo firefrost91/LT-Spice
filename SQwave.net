@@ -1,0 +1,12 @@
+* /Users/anshumanmishra/Desktop/SQwave.asc
+XU1 N003 N001 N002 N004 Output LM741/NS
+V1 N002 0 15
+V2 N004 0 -15
+R1 Output N003 1000
+R2 N003 0 1000
+R3 Output N001 45k
+C1 N001 0 0.1µ
+.include /Users/anshumanmishra/Desktop/LM741.MOD
+.tran 90m
+.backanno
+.end

@@ -1,0 +1,17 @@
+* /Users/anshumanmishra/Desktop/Band_Reject.asc
+XU1 N005 N001 N003 N007 Output LM741/NS
+V1 N003 0 15
+V2 N007 0 -15
+R2 N001 0 1000
+R5 N006 Output 500
+C1 N006 N004 318n
+C2 N005 N006 318n
+R3 N002 N004 1000
+R4 N005 N002 1000
+C3 0 N002 636n
+V3 N004 0 AC 1 0
+R1 N001 Output 1000
+.include /Users/anshumanmishra/Desktop/LM741.MOD
+.ac dec 10 10 1k
+.backanno
+.end
